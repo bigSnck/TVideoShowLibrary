@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="alivc_player_settings_title">Playback Settings</string>
+    <string name="alivc_error_msg">Error message</string>
+    <string name="alivc_error_code">Error code:</string>
+    <string name="alivc_retry">Retry</string>
+
+
+    <string name="alivc_net_disable">No network is found. Check your network and try again</string>
+    <string name="alivc_net_state_mobile">The current network is cell-network, whether to continue?</string>
+    <string name="alivc_net_state_mobile_yes">Resume</string>
+    <string name="alivc_net_state_mobile_no">Exit</string>
+    <string name="alivc_alivc_replay_msg">Video ended</string>
+    <string name="alivc_replay">Replay</string>
+    <string name="alivc_loading">Loading...</string>
+
+
+
+    <string name="alivc_speed_one_times">Normal</string>
+    <string name="alivc_speed_optf_times">1.25X</string>
+    <string name="alivc_speed_opt_times">1.5X</string>
+    <string name="alivc_speed_twice_times">2.0X</string>
+    <string name="alivc_speed_mode">Fast Speed Play</string>
+    <string name="alivc_speed_tips">the current video has switched to %1$s speed rate</string>
+    <string name="alivc_left_side">Left</string>
+    <string name="alivc_brightness">brightness</string>
+    <string name="alivc_control">&#160;control</string>
+    <string name="alivc_center">Middle</string>
+    <string name="alivc_progress">progress</string>
+    <string name="alivc_right_side">Right</string>
+    <string name="alivc_volume">volume</string>
+
+    <string name="input_vid_here">Please input vid here</string>
+    <string name="inout_accesskeyid_here">input accesskeyId here </string>
+    <string name="input_accesskeysecret_here">input accesskeySecret here</string>
+    <string name="input_securitytoken_here">input securityToken here </string>
+    <string name="input_url_here">Enter a URL </string>
+    <string name="start_player_ui">Play Video</string>
+    <string name="start_player_setting">Play by VID or URL</string>
+    <string name="request_vidsts_fail">Request a vidsts failed</string>
+    <string name="play_url_null_toast">Play video URL cannot be null</string>
+    <string name="clear_logs">clear logs</string>
+
+    <string name="player_log">Player Logs：</string>
+    <string name="log_start_get_data">&#160;start to get a streaming</string>
+    <string name="log_strart_play">&#160;start to play</string>
+    <string name="log_prepare_success"> &#160;prepared successfully</string>
+    <string name="toast_prepare_success">Prepared successfully</string>
+    <string name="log_play_completion">&#160;video ended</string>
+    <string name="toast_play_compleion">video ended</string>
+    <string name="log_player_create_success"> &#160;create a player successfully</string>
+    <string name="log_open_url_success"> &#160;open an url successfully</string>
+    <string name="log_request_stream_success"> &#160;get a streaming successfully</string>
+    <string name="log_start_open_stream"> &#160;start to open a streaming</string>
+    <string name="log_first_frame_played"> &#160;the first frame showed</string>
+    <string name="log_seek_completed">&#160;seek operation completed</string>
+    <string name="log_play_stopped">&#160;play operation stopped</string>
+    <string name="log_seek_start">&#160;seek operation started</string>
+    <string name="log_play_pause">&#160;play operation pause</string>
+    <string name="log_play_start">&#160;play operation start</string>
+    <string name="log_change_quality_success">&#160;Video quality switched successfully</string>
+    <string name="log_change_quality_fail">&#160;Video quality switched unsuccessfully</string>
+
+    <string name="alivc_checkbox_all_select">All</string>
+    <string name="alivc_download_delete">Delete</string>
+    <string name="alivc_download_edit">Edit</string>
+
+    <string name="prepare_download_item">To prepare download-item</string>
+    <string name="add_to_download">To add</string>
+    <string name="no_download_right">No permission for downloading</string>
+    <string name="encrypted">Encrypted</string>
+    <string name="encrypted_no">Unencrypted</string>
+    <string name="choose_a_definition_to_download">Please choose a definition to download</string>
+    <string name="choose_downloaditem">Choose download item</string>
+    <string name="choose_download_sharpness">Quality</string>
+    <string name="already_downloaded">Local</string>
+    <string name="download_caching">Downloading</string>
+    <string name="download_prepare">preparing</string>
+    <string name="download_wait">waiting</string>
+    <string name="download_downloading">downloading</string>
+    <string name="download_pause">pausing</string>
+    <string name="download_error">error</string>
+    <string name="download_no_downloaded">You haven’t downloaded the video yet</string>
+    <string name="download_no_downloaded_tips">You can click the download button to add video</string>
+    <string name="alivc_delete_confirm">Do you want to delete the selected video?</string>
+    <string name="alivc_start_download">Download</string>
+    <string name="alivc_not_choose_video">Select at least one video</string>
+    <string name="alivc_local_video_deleted">The video is deleted</string>
+
+    <string name="alivc_check_list_close">Skip Ad</string>
+    <string name="kickbt">Ok</string>
+
+    <string name="alivc_download_video">download video</string>
+
+    <string name="alivc_dialog_sure">Ok</string>
+    <string name="alivc_dialog_cancle">Cancel</string>
+
+    <!--tab-->
+    <string name="alivc_native_video">Local Videos</string>
+    <string name="alivc_tab_video_list">Videos</string>
+    <string name="alivc_tab_video_log">Log</string>
+    <string name="alivc_tab_vid">Play by VID</string>
+    <string name="alivc_tab_url">Play by URL</string>
+
+    <!--quality-->
+    <string name="alivc_fd_definition">LD</string>
+    <string name="alivc_ld_definition">SD</string>
+    <string name="alivc_sd_definition">HD</string>
+    <string name="alivc_hd_definition">Ultra HD</string>
+    <string name="alivc_k2_definition">2K (2560 * 1440)</string>
+    <string name="alivc_k4_definition">4K (3840 * 2160)</string>
+    <string name="alivc_od_definition">Original</string>
+    <string name="alivc_sq_definition">SQ</string>
+    <string name="alivc_hq_definition">HQ</string>
+    <!--mts-->
+    <!--<string name="alivc_mts_xld_definition">极速</string>-->
+    <string name="alivc_mts_ld_definition">LD</string>
+    <string name="alivc_mts_sd_definition">SD</string>
+    <string name="alivc_mts_fhd_definition">Ultra HD</string>
+    <string name="alivc_mts_hd_definition">HD</string>
+
+
+    <string name="alivc_speed">speed</string>
+
+    <string name="alivc_video_adv_picture">Ad</string>
+    
+    <string name="alivc_video_download_finish_tips">The video is downloaded</string>
+    <string name="alivc_video_downloading_tips">Downloading video. Please wait</string>
+
+
+    <string name="alivc_btn_download">Download</string>
+    <string name="alivc_btn_projection">Projection</string>
+    <string name="alivc_tips_trailer">You can only watch the first 5 minutes of the video</string>
+    <string name="alivc_tips_trailer_end">Sorry, the preview is over</string>
+    <string name="alivc_danmaku_setting_title">Bullet Screen Settings</string>
+    <string name="alivc_danmaku_setting_alpha">Opacity</string>
+    <string name="alivc_danmaku_setting_speed">Bullet Speed</string>
+    <string name="alivc_danmaku_setting_region">Screen Size</string>
+    <string name="alivc_danmaku_setting_default">Reset</string>
+    <string name="alivc_screen_cost_exit">Quit</string>
+
+
+
+    <!--没有英文的-->
+    <string name="alivc_screen_cost_select_devices">Selected: %s</string>
+    <string name="alivc_not_support_url">The specified video type cannot be downloaded...</string>
+    <string name="alivc_not_support_trailer">You cannot download video previews</string>
+    <string name="alivc_danmaku_screen_cost_title">Switch Device</string>
+    <string name="alivc_screen_costting">Projecting...</string>
+    <string name="alivc_sd_card_permission">No permission to access the sdcard</string>
+    <string name="alivc_video_not_found">The resource does not exist or it is not downloaded</string>
+    <string name="alivc_mts_xld_definition">Highest</string>
+
+    <string name="alivc_danmaku_position_quarter">1/4 screen</string>
+    <string name="alivc_danmaku_position_half">1/2 screen</string>
+    <string name="alivc_danmaku_position_Three_fourths">3/4 screen</string>
+    <string name="alivc_danmaku_position_unlimit">Full</string>
+    <string name="alivc_danmaku_text_1">Bullet screen text. You can click the brush icon to send the text</string>
+    <string name="alivc_danmaku_text_2">This video is awesome</string>
+    <string name="alivc_danmaku_text_3">Hello</string>
+    <string name="alivc_player_delete_failed">The path does not exist</string>
+
+    <string name="alivc_marquee_test">Sample Scrolling Text</string>
+    <string name="alivc_player_redownload">The resource does not exist or it is not downloaded</string>
+
+    <string name="alivc_player_get_sts_failed">No STS token is available</string>
+    <string name="alivc_player_device_name">Device</string>
+    <string name="alivc_video_not_support_download">not support url download...</string>
+
+
+    <string name="alivc_common_no_camera_permission">Camera usage is not permitted, please open first</string>
+    <string name="alivc_common_no_record_bluetooth_permission">Bluetooth is not permitted to record, please open first</string>
+    <string name="alivc_common_no_record_audio_permission">Audio is not permitted to record, please open first</string>
+    <string name="alivc_common_no_read_phone_state_permission">Phone state is not permitted to read, please opend first</string>
+    <string name="alivc_common_no_write_external_storage_permission">External storage is not permitted to write, please open first</string>
+    <string name="alivc_common_no_read_external_storage_permission">External storage is not permitted to read, please open first</string>
+    <string name="alivc_common_note">Note</string>
+    <string name="alivc_common_confirm">Confirm</string>
+    <string name="alivc_common_no_permission">no permission</string>
+
+
+
+    <string name="alivc_common_operate_success">Success</string>
+    <string name="alivc_common_operate_fail">Fail</string>
+    <string name="alivc_common_loading">Loading</string>
+    <string name="alivc_common_device_memory_not_enough">Insufficient memory. Please clear memory cache</string>
+    <string name="alivc_common_creating_video_remind">Creating video，Please wait </string>
+
+    <string name="alivc_common_download">Download</string>
+    <string name="alivc_common_cancel">Cancel</string>
+    <string name="alivc_common_no_free_memory">disk space not enough</string>
+
+</resources>
