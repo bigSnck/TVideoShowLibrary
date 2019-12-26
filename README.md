@@ -39,8 +39,7 @@ defaultConfig {
  
 ```
 ##### 效果图：<br>
-
-<img src="https://github.com/bigSnck/TVideoShowLibrary/blob/master/image/video_1.jpg" width="300" height="500"/> 
 <img src="https://github.com/bigSnck/TVideoShowLibrary/blob/master/image/video_2.jpg" width="500" height="300"/> 
+<img src="https://github.com/bigSnck/TVideoShowLibrary/blob/master/image/video_1.jpg" width="300" height="500"/> 
 
 #### 更多用法可以查看源码 谢谢！！ <br>
