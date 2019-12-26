@@ -5,6 +5,7 @@
 allprojects {
     repositories {
         mavenCentral()
+        maven { url "https://jitpack.io" }
         maven() {
             url 'https://maven.aliyun.com/repository/releases'
         }
@@ -21,11 +22,7 @@ dependencies {
 ```
 #### Step4: 在项目的主文件夹里面main文件夹下新建一个jniLibs文件夹：<br>
   main-->jniLibs-->armeabi-v7a-->添加libalivcffmpeg.so
-```
-defaultConfig {
-   ndk {abiFilters "armeabi-v7a"}
-}
-```
+  
 #### Step4: 在工程中添加依赖：<br>
 ```
 defaultConfig {
@@ -39,12 +36,11 @@ defaultConfig {
 ```
  String mUrl = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
  TPlayer.player(this, new UrlSourceData(mUrl, "哈哈哈哈"));
+ 
 ```
 ##### 效果图：<br>
 
-<img src="https://github.com/bigSnck/TDialogLibrary/blob/master/image/style_a.png" width="300" height="500"/>   <img src="https://github.com/bigSnck/TDialogLibrary/blob/master/image/style_a1.png" width="300" height="500"/>  <img src="https://github.com/bigSnck/TDialogLibrary/blob/master/image/style_a2.png" width="300" height="500"/>
+<img src="https://github.com/bigSnck/TVideoShowLibrary/blob/master/image/video_1.jpg" width="300" height="500"/> 
+<img src="https://github.com/bigSnck/TVideoShowLibrary/blob/master/image/video_2.jpg" width="500" height="300"/> 
 
-
- 
- 
-  #### 更多用法可以查看源码 谢谢！！ <br>
+#### 更多用法可以查看源码 谢谢！！ <br>
